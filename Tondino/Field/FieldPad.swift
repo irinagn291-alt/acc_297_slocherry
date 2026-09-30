@@ -15,8 +15,10 @@ enum FieldPad {
     static var inner: CGFloat { step(1) }
     static var gap: CGFloat { step(1) }
 
+    @MainActor
     static func isWide(_ sizeClass: UserInterfaceSizeClass?) -> Bool {
-        sizeClass == .regular || UIDevice.current.userInterfaceIdiom == .pad
+        let idiom = UIDevice.current.userInterfaceIdiom
+        return sizeClass == .regular || idiom == .pad
     }
 }
 
