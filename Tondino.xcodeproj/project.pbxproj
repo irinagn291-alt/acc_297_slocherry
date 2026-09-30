@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03371E06868F8A6C179796C7 /* TondinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9781DD3E16978B39A5E866C /* TondinoTests.swift */; };
+		04A0FAD042DDF88575739582 /* FieldInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F4F8E972F6B7B6131C04B /* FieldInk.swift */; };
+		076D0D50DBD312C251C646A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D2610B628E25597A2D573F /* Assets.xcassets */; };
+		07A9C9C2DBA4F1900131BBF6 /* FieldKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FC6DDADB594B80FA3D2DB /* FieldKit.swift */; };
+		07ABA136A5CB64D5DFB30453 /* FieldJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43699B4352301EB7468CAAF /* FieldJobTests.swift */; };
+		1399820CBA909C528A95AB20 /* FieldJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D007B298E1C81BFF3AE69 /* FieldJob.swift */; };
+		1E1A4A56EAF49F137EFFA9BF /* FieldStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D3DD5512DF94C7B7A4C1AC /* FieldStore.swift */; };
+		30CE631B7A50900DB04E4036 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A5645060270B868E87E21FE7 /* Alamofire */; };
+		37DCC378FC7314199082B8CA /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0ECFE3973916D882A6A581 /* SavedView.swift */; };
+		513084484E4E1D323D48F095 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E7A427ACEA58EEEDF06E /* ExploreView.swift */; };
+		53BE982C64CE13D06B9FE810 /* Tondo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301311B6F75BE22DC97799F1 /* Tondo.swift */; };
+		588A775BB0601C6603DF4D00 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3907F780227BC221095BD2C8 /* Work.swift */; };
+		59DA3FCDC3DAFBFFE60AB9E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406484F7E09CE916A18EE469 /* AppDelegate.swift */; };
+		6049FAD351117A9B86C4247E /* DayStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74745B0CDDD7F06D7A51DA1 /* DayStamp.swift */; };
+		6062B4584564834BE55DA0B4 /* FieldLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA4149FF2E675520F2CCDB /* FieldLinks.swift */; };
+		666B5692782149F5BE2A055E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD00BB276872B3F7953BBD /* SettingsView.swift */; };
+		67BA4C5CE021799DEA7B2378 /* GapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343EC05EB9B37CE74361AB4 /* GapPage.swift */; };
+		6EC90E3D5982F9325199B719 /* FieldLinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60A9A32CE22FD8711F52B06 /* FieldLinksTests.swift */; };
+		72F60C69CB435192FC5C85D9 /* Shard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813D41755B2202186635AA8 /* Shard.swift */; };
+		7E82F0F62D3F75D2387E5EF9 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8149EF81F8513603B856892 /* Ground.swift */; };
+		7FA776CF9761A85E49E22EFA /* TondinoGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790166A82F5C6A0258623334 /* TondinoGMT.swift */; };
+		84047CF859D0CC2AABBA8D60 /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730C450708C7D86F95AFA3F /* CatalogClient.swift */; };
+		84B872D2F69EAC9C92D5100D /* FieldPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639B661D06D17471A621EDD /* FieldPad.swift */; };
+		85871DDBA3A430E3DC18BFA4 /* ChipMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D775064C68007E804A8B7C0D /* ChipMark.swift */; };
+		8D22593EA893720910EA197E /* FieldChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86168149EA5DB0CA6EEEBC /* FieldChrome.swift */; };
+		8DE488D9B38DC6C67377389D /* TondoFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155137DE19788233238FE7E /* TondoFoldTests.swift */; };
+		9035490B0882D544F89863A3 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219E441C32E861DF2EE7015 /* APIConfig.swift */; };
+		9C4FCA00D8DA9F0770DE3982 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 2E6A093353B711979CC41ECF /* AppsFlyerLib-Static */; };
+		A23C9899B0E59F4A4437EE13 /* CutThenLodgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A71BB0A01E34994714537 /* CutThenLodgeView.swift */; };
+		B3AA7B2FA96EEA69BCF72574 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30EFCF687443F07573D467C /* QuizView.swift */; };
+		B3FB351BA1777885055B4066 /* FieldDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE99C8D179F71CA784C9C8F /* FieldDocument.swift */; };
+		B82A2D96FD53662DD5C614B0 /* FieldStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7B49D211C47CE0913BB13 /* FieldStoreTests.swift */; };
+		BC2C775F5E98F5DBE73808E5 /* GroundPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1EB0031B84CAD95C2FE29 /* GroundPanel.swift */; };
+		C4BF285622318FEF089E294F /* FieldVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F35E3AA59D1222BEF82E70E /* FieldVault.swift */; };
+		D004355743429B186D921BB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90241E198DEF8A92FE2432F7 /* ContentView.swift */; };
+		D0962FEE10D2C51B40259A44 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627B3F52D33A8A9CE0C94C4 /* Field.swift */; };
+		D60DC3E2083AA333B0F1A31B /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0872D8E6C2D3807B95FFA067 /* FamilyInvariantTests.swift */; };
+		DBFA97ACFE9BF3C50C38898C /* LodgeMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E96CC0B52897A369E843158 /* LodgeMark.swift */; };
+		DCBEEB9BCF5B70EC5B6D9107 /* GettyShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250703C66E3798BE7B7E0E80 /* GettyShelf.swift */; };
+		DE3DFE6ED07425D9AB498FE1 /* TondinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A80EE788E70F308C380F5 /* TondinoApp.swift */; };
+		E15DB1839D4077EA9784AE1E /* FieldSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33771C1C39B19A1B2C35B796 /* FieldSeed.swift */; };
+		E597520FCD659B8F6B262066 /* OnboardingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15DA64E38B54DC7CFE19AB /* OnboardingCover.swift */; };
+		EC4D01CF359A292F04323AAD /* WorkThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65984777CCDA24B152EBF1 /* WorkThumb.swift */; };
+		F679DF02A110956BDB19A83E /* CatalogClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491A1D8B42E10AE4AD4E280 /* CatalogClientTests.swift */; };
+		F816B480915C8A4E4D194C37 /* FieldIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A88821019A33CC37DE113 /* FieldIntents.swift */; };
+		FFAA675D77FA8055727B2167 /* ShardHoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDE867E9204A99AB275C5E /* ShardHoop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8962D5E8FEC62E61EDD184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E688C0CF82A98D8369DD91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4AFA5152B68C786485FCDD;
+			remoteInfo = Tondino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FA4149FF2E675520F2CCDB /* FieldLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldLinks.swift; sourceTree = "<group>"; };
+		0155137DE19788233238FE7E /* TondoFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TondoFoldTests.swift; sourceTree = "<group>"; };
+		0872D8E6C2D3807B95FFA067 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		1627B3F52D33A8A9CE0C94C4 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		225A80EE788E70F308C380F5 /* TondinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TondinoApp.swift; sourceTree = "<group>"; };
+		23D2610B628E25597A2D573F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		250703C66E3798BE7B7E0E80 /* GettyShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettyShelf.swift; sourceTree = "<group>"; };
+		25F4E7A427ACEA58EEEDF06E /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		2B4FC6DDADB594B80FA3D2DB /* FieldKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldKit.swift; sourceTree = "<group>"; };
+		301311B6F75BE22DC97799F1 /* Tondo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tondo.swift; sourceTree = "<group>"; };
+		33771C1C39B19A1B2C35B796 /* FieldSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSeed.swift; sourceTree = "<group>"; };
+		3907F780227BC221095BD2C8 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		3A15DA64E38B54DC7CFE19AB /* OnboardingCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCover.swift; sourceTree = "<group>"; };
+		3A4D007B298E1C81BFF3AE69 /* FieldJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldJob.swift; sourceTree = "<group>"; };
+		3A86168149EA5DB0CA6EEEBC /* FieldChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldChrome.swift; sourceTree = "<group>"; };
+		3F35E3AA59D1222BEF82E70E /* FieldVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldVault.swift; sourceTree = "<group>"; };
+		406484F7E09CE916A18EE469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40C437521E9AE5CE16923B9D /* Tondino.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tondino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4219E441C32E861DF2EE7015 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		44A17870D60B2931C6AA1A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A65984777CCDA24B152EBF1 /* WorkThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkThumb.swift; sourceTree = "<group>"; };
+		7491A1D8B42E10AE4AD4E280 /* CatalogClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClientTests.swift; sourceTree = "<group>"; };
+		790166A82F5C6A0258623334 /* TondinoGMT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TondinoGMT.swift; sourceTree = "<group>"; };
+		7BCD00BB276872B3F7953BBD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		84E1EB0031B84CAD95C2FE29 /* GroundPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundPanel.swift; sourceTree = "<group>"; };
+		8730C450708C7D86F95AFA3F /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+		88C7B49D211C47CE0913BB13 /* FieldStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldStoreTests.swift; sourceTree = "<group>"; };
+		8A1A88821019A33CC37DE113 /* FieldIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldIntents.swift; sourceTree = "<group>"; };
+		8B0ECFE3973916D882A6A581 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		8BE99C8D179F71CA784C9C8F /* FieldDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldDocument.swift; sourceTree = "<group>"; };
+		8E96CC0B52897A369E843158 /* LodgeMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodgeMark.swift; sourceTree = "<group>"; };
+		90241E198DEF8A92FE2432F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		979DE782CFFE8E038A74936D /* TondinoTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TondinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9813D41755B2202186635AA8 /* Shard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shard.swift; sourceTree = "<group>"; };
+		9D4A71BB0A01E34994714537 /* CutThenLodgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutThenLodgeView.swift; sourceTree = "<group>"; };
+		A4CDE867E9204A99AB275C5E /* ShardHoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShardHoop.swift; sourceTree = "<group>"; };
+		A9D3DD5512DF94C7B7A4C1AC /* FieldStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldStore.swift; sourceTree = "<group>"; };
+		B9781DD3E16978B39A5E866C /* TondinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TondinoTests.swift; sourceTree = "<group>"; };
+		C30EFCF687443F07573D467C /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		C43699B4352301EB7468CAAF /* FieldJobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldJobTests.swift; sourceTree = "<group>"; };
+		C60A9A32CE22FD8711F52B06 /* FieldLinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldLinksTests.swift; sourceTree = "<group>"; };
+		C8149EF81F8513603B856892 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		D343EC05EB9B37CE74361AB4 /* GapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapPage.swift; sourceTree = "<group>"; };
+		D639B661D06D17471A621EDD /* FieldPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPad.swift; sourceTree = "<group>"; };
+		D74745B0CDDD7F06D7A51DA1 /* DayStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStamp.swift; sourceTree = "<group>"; };
+		D775064C68007E804A8B7C0D /* ChipMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipMark.swift; sourceTree = "<group>"; };
+		E97F4F8E972F6B7B6131C04B /* FieldInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldInk.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4B3E0900EDBB78C2BF3BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CE631B7A50900DB04E4036 /* Alamofire in Frameworks */,
+				9C4FCA00D8DA9F0770DE3982 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D70B7E1FCBD8640F87DE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C437521E9AE5CE16923B9D /* Tondino.app */,
+				979DE782CFFE8E038A74936D /* TondinoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F508A6C2DE1826CD6E6A56B /* Ground */ = {
+			isa = PBXGroup;
+			children = (
+				C8149EF81F8513603B856892 /* Ground.swift */,
+				84E1EB0031B84CAD95C2FE29 /* GroundPanel.swift */,
+			);
+			path = Ground;
+			sourceTree = "<group>";
+		};
+		2C85DE7DC6F36C43096124C9 /* TondinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7491A1D8B42E10AE4AD4E280 /* CatalogClientTests.swift */,
+				0872D8E6C2D3807B95FFA067 /* FamilyInvariantTests.swift */,
+				C43699B4352301EB7468CAAF /* FieldJobTests.swift */,
+				C60A9A32CE22FD8711F52B06 /* FieldLinksTests.swift */,
+				88C7B49D211C47CE0913BB13 /* FieldStoreTests.swift */,
+				790166A82F5C6A0258623334 /* TondinoGMT.swift */,
+				B9781DD3E16978B39A5E866C /* TondinoTests.swift */,
+				0155137DE19788233238FE7E /* TondoFoldTests.swift */,
+			);
+			path = TondinoTests;
+			sourceTree = "<group>";
+		};
+		389776CE85092F235375D9F2 /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				D74745B0CDDD7F06D7A51DA1 /* DayStamp.swift */,
+				1627B3F52D33A8A9CE0C94C4 /* Field.swift */,
+				3A86168149EA5DB0CA6EEEBC /* FieldChrome.swift */,
+				8BE99C8D179F71CA784C9C8F /* FieldDocument.swift */,
+				E97F4F8E972F6B7B6131C04B /* FieldInk.swift */,
+				8A1A88821019A33CC37DE113 /* FieldIntents.swift */,
+				3A4D007B298E1C81BFF3AE69 /* FieldJob.swift */,
+				2B4FC6DDADB594B80FA3D2DB /* FieldKit.swift */,
+				00FA4149FF2E675520F2CCDB /* FieldLinks.swift */,
+				D639B661D06D17471A621EDD /* FieldPad.swift */,
+				33771C1C39B19A1B2C35B796 /* FieldSeed.swift */,
+				A9D3DD5512DF94C7B7A4C1AC /* FieldStore.swift */,
+				3F35E3AA59D1222BEF82E70E /* FieldVault.swift */,
+				D343EC05EB9B37CE74361AB4 /* GapPage.swift */,
+				3A15DA64E38B54DC7CFE19AB /* OnboardingCover.swift */,
+				C30EFCF687443F07573D467C /* QuizView.swift */,
+				7BCD00BB276872B3F7953BBD /* SettingsView.swift */,
+				301311B6F75BE22DC97799F1 /* Tondo.swift */,
+			);
+			path = Field;
+			sourceTree = "<group>";
+		};
+		812E1D744BD047D5105644FA /* Shard */ = {
+			isa = PBXGroup;
+			children = (
+				9813D41755B2202186635AA8 /* Shard.swift */,
+				A4CDE867E9204A99AB275C5E /* ShardHoop.swift */,
+			);
+			path = Shard;
+			sourceTree = "<group>";
+		};
+		954869982F1CC62CD762BD4C /* ChipMark */ = {
+			isa = PBXGroup;
+			children = (
+				D775064C68007E804A8B7C0D /* ChipMark.swift */,
+			);
+			path = ChipMark;
+			sourceTree = "<group>";
+		};
+		AD0C1B459474B19230FDC995 /* LodgeMark */ = {
+			isa = PBXGroup;
+			children = (
+				9D4A71BB0A01E34994714537 /* CutThenLodgeView.swift */,
+				8E96CC0B52897A369E843158 /* LodgeMark.swift */,
+			);
+			path = LodgeMark;
+			sourceTree = "<group>";
+		};
+		CD4ED8EDBD4DAAB8749C7E75 = {
+			isa = PBXGroup;
+			children = (
+				FB2A4C9D368718229F6154A1 /* Tondino */,
+				2C85DE7DC6F36C43096124C9 /* TondinoTests */,
+				02D70B7E1FCBD8640F87DE70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F9224AC704383B6A74B5D5 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				8730C450708C7D86F95AFA3F /* CatalogClient.swift */,
+				25F4E7A427ACEA58EEEDF06E /* ExploreView.swift */,
+				250703C66E3798BE7B7E0E80 /* GettyShelf.swift */,
+				8B0ECFE3973916D882A6A581 /* SavedView.swift */,
+				3907F780227BC221095BD2C8 /* Work.swift */,
+				5A65984777CCDA24B152EBF1 /* WorkThumb.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		FB2A4C9D368718229F6154A1 /* Tondino */ = {
+			isa = PBXGroup;
+			children = (
+				4219E441C32E861DF2EE7015 /* APIConfig.swift */,
+				406484F7E09CE916A18EE469 /* AppDelegate.swift */,
+				23D2610B628E25597A2D573F /* Assets.xcassets */,
+				90241E198DEF8A92FE2432F7 /* ContentView.swift */,
+				44A17870D60B2931C6AA1A0E /* Info.plist */,
+				225A80EE788E70F308C380F5 /* TondinoApp.swift */,
+				954869982F1CC62CD762BD4C /* ChipMark */,
+				389776CE85092F235375D9F2 /* Field */,
+				1F508A6C2DE1826CD6E6A56B /* Ground */,
+				AD0C1B459474B19230FDC995 /* LodgeMark */,
+				812E1D744BD047D5105644FA /* Shard */,
+				E8F9224AC704383B6A74B5D5 /* Work */,
+			);
+			path = Tondino;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5EA68979FB716487A28ED4 /* TondinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843A4CF09C63D338E360FBED /* Build configuration list for PBXNativeTarget "TondinoTests" */;
+			buildPhases = (
+				77F5609502DDE411CF5B7225 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C831EC64A8637DB9E5F8E945 /* PBXTargetDependency */,
+			);
+			name = TondinoTests;
+			packageProductDependencies = (
+			);
+			productName = TondinoTests;
+			productReference = 979DE782CFFE8E038A74936D /* TondinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F4AFA5152B68C786485FCDD /* Tondino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A051A2D87DC24C67A3797203 /* Build configuration list for PBXNativeTarget "Tondino" */;
+			buildPhases = (
+				6BD75EE5A21328E2672B0EEE /* Sources */,
+				C364E54B812BFEE7DEA3B247 /* Resources */,
+				9F4B3E0900EDBB78C2BF3BC2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tondino;
+			packageProductDependencies = (
+				A5645060270B868E87E21FE7 /* Alamofire */,
+				2E6A093353B711979CC41ECF /* AppsFlyerLib-Static */,
+			);
+			productName = Tondino;
+			productReference = 40C437521E9AE5CE16923B9D /* Tondino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E688C0CF82A98D8369DD91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6E5EA68979FB716487A28ED4 = {
+						ProvisioningStyle = Automatic;
+					};
+					7F4AFA5152B68C786485FCDD = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 399C4228FB594BA149AFA6B8 /* Build configuration list for PBXProject "Tondino" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD4ED8EDBD4DAAB8749C7E75;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9508EB0F2BD08089C8BBA673 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AA03006CEF22C5D66E988822 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 02D70B7E1FCBD8640F87DE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4AFA5152B68C786485FCDD /* Tondino */,
+				6E5EA68979FB716487A28ED4 /* TondinoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C364E54B812BFEE7DEA3B247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076D0D50DBD312C251C646A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD75EE5A21328E2672B0EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9035490B0882D544F89863A3 /* APIConfig.swift in Sources */,
+				59DA3FCDC3DAFBFFE60AB9E9 /* AppDelegate.swift in Sources */,
+				84047CF859D0CC2AABBA8D60 /* CatalogClient.swift in Sources */,
+				85871DDBA3A430E3DC18BFA4 /* ChipMark.swift in Sources */,
+				D004355743429B186D921BB7 /* ContentView.swift in Sources */,
+				A23C9899B0E59F4A4437EE13 /* CutThenLodgeView.swift in Sources */,
+				6049FAD351117A9B86C4247E /* DayStamp.swift in Sources */,
+				513084484E4E1D323D48F095 /* ExploreView.swift in Sources */,
+				D0962FEE10D2C51B40259A44 /* Field.swift in Sources */,
+				8D22593EA893720910EA197E /* FieldChrome.swift in Sources */,
+				B3FB351BA1777885055B4066 /* FieldDocument.swift in Sources */,
+				04A0FAD042DDF88575739582 /* FieldInk.swift in Sources */,
+				F816B480915C8A4E4D194C37 /* FieldIntents.swift in Sources */,
+				1399820CBA909C528A95AB20 /* FieldJob.swift in Sources */,
+				07A9C9C2DBA4F1900131BBF6 /* FieldKit.swift in Sources */,
+				6062B4584564834BE55DA0B4 /* FieldLinks.swift in Sources */,
+				84B872D2F69EAC9C92D5100D /* FieldPad.swift in Sources */,
+				E15DB1839D4077EA9784AE1E /* FieldSeed.swift in Sources */,
+				1E1A4A56EAF49F137EFFA9BF /* FieldStore.swift in Sources */,
+				C4BF285622318FEF089E294F /* FieldVault.swift in Sources */,
+				67BA4C5CE021799DEA7B2378 /* GapPage.swift in Sources */,
+				DCBEEB9BCF5B70EC5B6D9107 /* GettyShelf.swift in Sources */,
+				7E82F0F62D3F75D2387E5EF9 /* Ground.swift in Sources */,
+				BC2C775F5E98F5DBE73808E5 /* GroundPanel.swift in Sources */,
+				DBFA97ACFE9BF3C50C38898C /* LodgeMark.swift in Sources */,
+				E597520FCD659B8F6B262066 /* OnboardingCover.swift in Sources */,
+				B3AA7B2FA96EEA69BCF72574 /* QuizView.swift in Sources */,
+				37DCC378FC7314199082B8CA /* SavedView.swift in Sources */,
+				666B5692782149F5BE2A055E /* SettingsView.swift in Sources */,
+				72F60C69CB435192FC5C85D9 /* Shard.swift in Sources */,
+				FFAA675D77FA8055727B2167 /* ShardHoop.swift in Sources */,
+				DE3DFE6ED07425D9AB498FE1 /* TondinoApp.swift in Sources */,
+				53BE982C64CE13D06B9FE810 /* Tondo.swift in Sources */,
+				588A775BB0601C6603DF4D00 /* Work.swift in Sources */,
+				EC4D01CF359A292F04323AAD /* WorkThumb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F5609502DDE411CF5B7225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F679DF02A110956BDB19A83E /* CatalogClientTests.swift in Sources */,
+				D60DC3E2083AA333B0F1A31B /* FamilyInvariantTests.swift in Sources */,
+				07ABA136A5CB64D5DFB30453 /* FieldJobTests.swift in Sources */,
+				6EC90E3D5982F9325199B719 /* FieldLinksTests.swift in Sources */,
+				B82A2D96FD53662DD5C614B0 /* FieldStoreTests.swift in Sources */,
+				7FA776CF9761A85E49E22EFA /* TondinoGMT.swift in Sources */,
+				03371E06868F8A6C179796C7 /* TondinoTests.swift in Sources */,
+				8DE488D9B38DC6C67377389D /* TondoFoldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C831EC64A8637DB9E5F8E945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F4AFA5152B68C786485FCDD /* Tondino */;
+			targetProxy = EA8962D5E8FEC62E61EDD184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F37A0B9FAEE55AA23BA18D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tondino/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Slocherry;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tondino.field;
+				PRODUCT_NAME = Tondino;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11E42589D7A3D78DE7735673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		3667D44409615A43C13D5487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tondino.field.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tondino.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tondino";
+			};
+			name = Release;
+		};
+		583CD897FC73C83A8C8F4F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tondino/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Slocherry;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tondino.field;
+				PRODUCT_NAME = Tondino;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3FBE5895F45E5E706788836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		E9B6DF1645FDE8427CB4380F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tondino.field.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tondino.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tondino";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399C4228FB594BA149AFA6B8 /* Build configuration list for PBXProject "Tondino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E42589D7A3D78DE7735673 /* Debug */,
+				A3FBE5895F45E5E706788836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		843A4CF09C63D338E360FBED /* Build configuration list for PBXNativeTarget "TondinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B6DF1645FDE8427CB4380F /* Debug */,
+				3667D44409615A43C13D5487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A051A2D87DC24C67A3797203 /* Build configuration list for PBXNativeTarget "Tondino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583CD897FC73C83A8C8F4F93 /* Debug */,
+				0F37A0B9FAEE55AA23BA18D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9508EB0F2BD08089C8BBA673 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+		AA03006CEF22C5D66E988822 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E6A093353B711979CC41ECF /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA03006CEF22C5D66E988822 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		A5645060270B868E87E21FE7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9508EB0F2BD08089C8BBA673 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 62E688C0CF82A98D8369DD91 /* Project object */;
+}

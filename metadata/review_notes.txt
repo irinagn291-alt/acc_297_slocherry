@@ -1,0 +1,21 @@
+The app never asks for camera, photos, microphone, location, or tracking. No permission prompt is shown. A camera usage string exists in the build: "This app does not use the camera."
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Slocherry is a looking quiz for people who remember a painting from a circular detail and want to seat that fragment on the full work they already saved. You save public-domain panels from the J. Paul Getty Museum, cut a round excerpt, and tap the full panel that owns it so that work files as lodged. It is for students of looking, not people naming a maker from a wall label.
+
+No credentials or demo account are needed. A cold launch can sit on a brief empty screen, then a full-screen splash illustration with no words. On a physical device, first launch then shows a three-page intro. Page dots sit above a full-width Continue. VoiceOver on the dots: Page 1 of 3, Page 2 of 3, Page 3 of 3. Page 1 headline Lodge the tondo. Line A circular excerpt sits over four full panels. Tap the panel that owns it. Button Continue. Page 2 headline Cut then lodge. Line Cut punches a roundel from a work you have not lodged yet, then hangs four grounds. Button Continue. On pages 1 and 2, Skip (spoken as Skip onboarding) finishes the intro. Page 3 headline Keep your crate. Line Lodged works rest on Saved. A miss writes a ChipMark and the excerpt stays. Button Continue. Skip is gone. After Skip or the last Continue, the field opens. If fewer than four works are saved, that is the empty field (Field waiting.).
+
+From Field waiting., tap Explore. Title Explore. Label J. Paul Getty Museum. An empty query shows the local shelf. Each row is title, maker, and Save. Save four works from the local shelf (for example Irises, Portrait of a Halberdier, The Abduction of Europa, and Christ's Entry into Brussels in 1889). A note can read Saved as Loose. Close with Close (X). After four saves, tap Cut. While cutting, the button shows a spinner. Status becomes Crop ready. Lodge this tondo and Tap the panel that owns this excerpt. Four full grounds appear. Tap the panel that owns the excerpt to lodge. A correct lodge files the donor, flashes a success mark, and sets Filed, Tondo lodged., and Filed. Cut the next tondo. A miss darkens that panel with a diagonal strike; status becomes Missed with That panel missed. The excerpt stays.
+
+Status chip tap opens Cut then lodge (spoken Cut then lodge.). On Cut then lodge, Cut punches the excerpt if a new one can be cut; Lodge only closes the screen and does not file. Undo peels the newest filed lodge or missed chip. Saved opens Saved (Your tondos, sections Filed and Missed). Tap a work to open it; Open this work opens that panel's Getty record when a record exists, or Back to Saved returns. Settings opens Settings. Progress shows Filed and Missed counts. Collection lists J. Paul Getty Museum and Open Content Program. Undo, Re-run onboarding, and Reset the field are on this screen. Reset the field asks Reset the field? with Keep and Reset the field. Contact with tondino-field.pro/contact-us opens that contact page.
+
+Works, marks, and onboarding state stay on this device. On-screen support is Settings, Contact / tondino-field.pro/contact-us.
+
+English copy only. Counts and dates follow the device locale. No region lock.
+
+No licence or regulated-industry paperwork applies. The app is an Education looking quiz that uses public-domain works from the J. Paul Getty Museum Open Content Program and does not handle payments, health data, or regulated goods.
+
+The app does not show health, medical, or product-health information. It is a personal log only and gives no recommendations.
+
+The app does not scan barcodes or QR codes.

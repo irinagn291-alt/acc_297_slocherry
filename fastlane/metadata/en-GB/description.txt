@@ -1,0 +1,16 @@
+Slocherry is a looking quiz for people who remember a painting from a circular detail and want to seat that fragment on the full work they have already saved. You save public-domain panels from the J. Paul Getty Museum, cut a round excerpt and tap the full panel that owns it so that work files as lodged. It is for students of looking, not people naming a maker from a wall label.
+
+• Lodge the tondo: tap the full panel that owns the circular excerpt so that work files as lodged.
+• Cut then lodge: Cut punches a circular excerpt from a work that is not yet lodged and hangs four full grounds; Lodge files the donor; a miss writes a ChipMark and the excerpt stays.
+• Explore the J. Paul Getty Museum and "Save" a work as Loose.
+• Local shelf of Getty works when search is empty or misses.
+• Saved crate of "Filed" excerpts and "Missed" guesses; open a work; "Open this work" for the Getty record.
+• Filed and Missed counts on the field, on Saved and in Settings.
+• Undo peels the newest filed or missed tondo.
+• Re-run onboarding (works and marks stay).
+• Reset the field (everything on this device; cannot be undone).
+• Collection credit: J. Paul Getty Museum and Open Content Program.
+• Contact.
+• Shortcuts (system): "Open Quiz", "Open Explore", "Open Saved", "Open Settings", "Cut a tondo", "Lodge the tondo", with short titles "Quiz", "Explore", "Saved", "Settings", "Cut", "Lodge".
+
+There is no sign-in. Works, marks and onboarding state stay on this device.

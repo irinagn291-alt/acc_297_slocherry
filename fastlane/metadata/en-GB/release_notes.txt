@@ -1,0 +1,13 @@
+Version 1.0. First release of Slocherry, a looking quiz that seats a circular excerpt on a full work already saved.
+
+• Three-page intro: Lodge the tondo, Cut then lodge, Keep your crate, then the field.
+• Field home with status Waiting, Crop ready, Filed or Missed; circular excerpt; four full grounds; Filed and Missed counts.
+• Cut punches a tondo from a Loose work when four or more works are saved.
+• Lodge by tapping the panel that owns the excerpt; a miss writes a ChipMark and the excerpt stays.
+• Explore the J. Paul Getty Museum, Search a work, Save as Loose and a local shelf when search is empty or misses.
+• Saved crate of Filed excerpts and Missed guesses; Open this work for the Getty record.
+• Settings: Progress, Collection (J. Paul Getty Museum and Open Content Program), Undo, Re-run onboarding, Reset the field, Contact.
+• System Shortcuts: Open Quiz, Open Explore, Open Saved, Open Settings, Cut a tondo, Lodge the tondo.
+• Portrait, light appearance, iPhone and iPad, iOS 17.0. English copy. Counts and dates follow the device locale.
+
+No sign-in. Works, marks and onboarding state stay on this device.
