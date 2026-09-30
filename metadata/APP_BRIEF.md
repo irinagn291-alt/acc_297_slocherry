@@ -1,4 +1,4 @@
-<!-- gf-brief source=c5116f346b3ef0a54ca23942862d8ba403c65ca63068ec39986e974caafdab12 written=2026-09-30T03:16:24+03:00 -->
+<!-- gf-brief source=c5116f346b3ef0a54ca23942862d8ba403c65ca63068ec39986e974caafdab12 written=2026-09-30T03:17:03+03:00 -->
 # Slocherry
 ## What it is
 Slocherry is a looking quiz for people who remember a painting from a circular detail and want to seat that fragment on the full work they already saved. You save public-domain panels from the J. Paul Getty Museum, cut a round excerpt, and tap the full panel that owns it so that work files as lodged. It is for students of looking, not people naming a maker from a wall label.
